@@ -12,6 +12,7 @@
         <module>generic</module>
         <module>reflect</module>
         <module>proxy</module>
+        <module>annotation</module>
     </modules>
 
     <repositories>
