@@ -10,6 +10,8 @@
     <modules>
 
         <module>generic</module>
+        <module>reflect</module>
+        <module>proxy</module>
     </modules>
 
     <repositories>
@@ -25,12 +27,6 @@
         </pluginRepository>
     </pluginRepositories>
 
-    <!--    <parent>-->
-    <!--        <groupId>org.springframework.boot</groupId>-->
-    <!--        <artifactId>spring-boot-starter-parent</artifactId>-->
-    <!--        <version>1.5.6.RELEASE</version>-->
-    <!--    </parent>-->
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
@@ -38,6 +34,11 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>cglib</groupId>
+                <artifactId>cglib</artifactId>
+                <version>3.3.0</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
