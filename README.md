@@ -1,5 +1,5 @@
 # java_study
-学习java的项目
+java基础的学习
 
 ### 泛型
 
